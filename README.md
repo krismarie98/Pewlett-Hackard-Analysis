@@ -14,3 +14,8 @@
 #### There will be a total of 72,458 roles to be filled so that there are no gaps in positions.
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 #### There are not enough qualified employees ready to fill the positions that are soon to be available. If the company is able to get more employees eligible to participate in the mentorship prgram then they may be able hire more employees and train them for roles. This may include training current employees for promotions so that lower title jobs are available that may be easier to train. 
+#### Query examples:
+#### SELECT COUNT(emp_no)
+#### FROM mentorship_elibility;
+#### SELECT *
+#### FROM retiring_titles;
