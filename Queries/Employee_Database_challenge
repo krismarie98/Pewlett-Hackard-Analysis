@@ -26,7 +26,7 @@ WHERE rt.to_date = ('9999-01-01')
 ORDER BY  rt.emp_no asc, rt.to_date DESC;
  
 select count(ut.title), ut.title
- --into retiring titles
+into retiring titles
 from unique_titles as ut
 group by ut.title
 order by count(ut.title) desc;
@@ -39,7 +39,7 @@ e.birth_date,
 de.from_date,
 de.to_date,
 t.title
---into mentorship_eligibilty
+into mentorship_eligibilty
 from employees as e
 inner join dept_emp as de
 on e.emp_no = de.emp_no
